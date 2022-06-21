@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. App", "1. App", "{30177697-D110-4D5B-8DBD-5D8CCD2F1314}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service", "2. Service", "{646BFD2E-0ACF-4780-9806-EDAD9A79A8AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Repository", "3. Repository", "{5B49921F-3961-4566-B316-4CBCAB4A9538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Lib", "4. Lib", "{D03FA78F-0E5C-4AE9-8927-10B8B905F95C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Test", "5. Test", "{E34E6309-56F5-449C-B3EF-A5DE4B2AC09E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMVCVuePost.App", "1. App\AspMVCVuePost.App\AspMVCVuePost.App.csproj", "{C89D9E80-287A-43AF-BAAD-E5DF23B50A44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C89D9E80-287A-43AF-BAAD-E5DF23B50A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89D9E80-287A-43AF-BAAD-E5DF23B50A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89D9E80-287A-43AF-BAAD-E5DF23B50A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89D9E80-287A-43AF-BAAD-E5DF23B50A44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C89D9E80-287A-43AF-BAAD-E5DF23B50A44} = {30177697-D110-4D5B-8DBD-5D8CCD2F1314}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {937AC2BF-D881-435E-B88A-EFE2D71453C6}
+	EndGlobalSection
+EndGlobal
