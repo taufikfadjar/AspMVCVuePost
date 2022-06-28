@@ -23,10 +23,16 @@ namespace AspMVCVuePost.App.Controllers
         // GET: Login
         public ActionResult Index()
         {
-            var hello = new User();
- 
-           
             return View();
+        }
+
+        [HttpPost]
+        public ActionResult SubmitLogin(string email, string password)
+        {
+            var test = email;
+            return Json(JsonResponseResult.CreateError("Success login", 
+                Url.Action("index","home")), 
+                JsonRequestBehavior.AllowGet);
         }
     }
 }

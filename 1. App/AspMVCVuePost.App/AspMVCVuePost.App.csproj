@@ -173,6 +173,7 @@
     <Content Include="Global.asax" />
     <Content Include="package.json" />
     <Content Include="Scripts\Home\index.js" />
+    <Content Include="Scripts\Login\index.js" />
     <Content Include="webpack.config.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -200,6 +201,8 @@
     <Content Include="Scripts\Home\contactus.vue" />
     <Content Include="Scripts\Home\aboutus.vue" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Scripts\Shared\header.vue" />
+    <Content Include="Scripts\Login\login.vue" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\2. Service\AspMVCVuePost.Service\AspMVCVuePost.Service.csproj">

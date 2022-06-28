@@ -1,7 +1,12 @@
-﻿
-@{
-    ViewBag.Title = "Index";
+﻿@{
+    ViewBag.Title = "Home Page";
 }
 
-<h2>Index</h2>
+<div id="app">
+    <login-component base-url="@string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Url.Authority, Url.Content("~"))"></login-component>
+</div>
 
+@section scripts
+    {
+    <script src="@Url.Content("~/Build/bundle/login.js")"></script>
+}
